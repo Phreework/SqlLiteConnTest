@@ -47,11 +47,27 @@
             }
         },
         {
+            "Key": "0fedcc8c-cad6-4020-abea-7b063cbdc5d9",
+            "Value": {
+                "id": "e1668051-cac0-4b93-882f-124c6274f674",
+                "resourcePath": "objects\\exitObject\\exitObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1159a3e7-50da-47d5-9995-bfff24100e2a",
             "Value": {
                 "id": "5007ffe5-e183-4ff4-b066-03542765e528",
                 "resourcePath": "views\\1159a3e7-50da-47d5-9995-bfff24100e2a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "11921ea9-b036-4073-9aaf-ebb76f3f98d8",
+            "Value": {
+                "id": "f0e7f41c-2ddb-46e0-9bd4-276cb62a3662",
+                "resourcePath": "scripts\\createTable\\createTable.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -71,6 +87,14 @@
             }
         },
         {
+            "Key": "23d982f5-a97e-4c99-b633-65a2ff0452dc",
+            "Value": {
+                "id": "b7a2863b-7c5f-45da-a671-9e93d4d729ba",
+                "resourcePath": "sprites\\playSprite\\playSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "259df5ad-b1ce-4f94-91f6-b03bcc9aa719",
             "Value": {
                 "id": "e02675d8-4c22-4e4e-9f24-3fad7b0de808",
@@ -84,6 +108,14 @@
                 "id": "67e7278c-c12f-4ed8-8f50-151c3bac6c2c",
                 "resourcePath": "views\\2ba09daa-4333-443c-b1e2-82deeb3805f8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2d11e202-1a54-4831-ac48-4a92e1e1b3f3",
+            "Value": {
+                "id": "05753cc0-eccc-4c3b-aa31-64bf19b1298f",
+                "resourcePath": "scripts\\openDB\\openDB.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -103,11 +135,19 @@
             }
         },
         {
-            "Key": "49aa5801-9108-4cae-a491-e7d785e5538d",
+            "Key": "5082e036-40d5-4305-9f89-82521a3ef2e7",
             "Value": {
-                "id": "44413b7d-5e0a-4532-8732-ff5197cb4023",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
+                "id": "c5ed5047-995c-43d6-9fa9-cfb06240b01b",
+                "resourcePath": "scripts\\closeDB\\closeDB.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5c340e13-9154-425c-b6cd-cea4200b6dc9",
+            "Value": {
+                "id": "54c2ce0f-c319-4c53-8035-8dccbeb45ce9",
+                "resourcePath": "scripts\\runAllScripts\\runAllScripts.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -119,11 +159,51 @@
             }
         },
         {
+            "Key": "7148881e-d180-44e8-84d8-5167dddd94fb",
+            "Value": {
+                "id": "06e0077e-004f-4bf0-85e6-5f3e9833de15",
+                "resourcePath": "notes\\compatibility_report_060518_2148474847.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "766dcac9-9034-410f-80e1-499947a0967b",
+            "Value": {
+                "id": "bffeb6a2-01c9-49d3-9e88-67c6c06f1e87",
+                "resourcePath": "extensions\\SQLiteWinGMExtension\\SQLiteWinGMExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "7b02001c-3c6a-483d-b8e1-4c8b713c7c25",
+            "Value": {
+                "id": "06bd0db8-a23c-4e4c-8437-cd069e7a3248",
+                "resourcePath": "sprites\\exitSprite\\exitSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "c4ef7900-dbe2-4836-8ea3-5d0c91897f43",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8485a0f2-c96c-49e8-a8b2-90c678da6484",
+            "Value": {
+                "id": "ac22d8f7-66e0-40ff-9f8f-838a35f86938",
+                "resourcePath": "objects\\playObject\\playObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "95096094-74db-420c-b89b-076449b5e352",
+            "Value": {
+                "id": "58a40995-f006-4792-8fd2-d26ae09141c5",
+                "resourcePath": "datafiles_yy\\databases\\win.db.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -140,6 +220,22 @@
                 "id": "7066aa42-aefc-409c-8904-262c99121d8b",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b1a0b798-df5f-4c99-a734-b315dc8c21a8",
+            "Value": {
+                "id": "9cbacde5-e785-44d3-9a88-10038a1de202",
+                "resourcePath": "scripts\\runQuery\\runQuery.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b32693ac-f2c4-4ca5-b10b-bdc8b543f729",
+            "Value": {
+                "id": "0702dfbe-9eb7-4275-a802-1d13041ebd42",
+                "resourcePath": "scripts\\runDMLs\\runDMLs.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -191,6 +287,14 @@
             }
         },
         {
+            "Key": "ca509216-f9cb-48c8-a939-fdeb60a8f146",
+            "Value": {
+                "id": "d1064a83-65a9-402c-8279-d46fc3a5c132",
+                "resourcePath": "datafiles_yy\\documentation\\SQLiteWindowsGMSExtensionDoc.docx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f9d6d01d-cadd-4279-86ef-3e5dd04cbac1",
@@ -199,11 +303,11 @@
             }
         },
         {
-            "Key": "d1496e6e-7899-48c1-8bfa-c110252a12cc",
+            "Key": "e040d0c9-7947-409a-a797-c710fafa4f70",
             "Value": {
-                "id": "846d1f75-7498-465f-9689-389f1d13b61c",
-                "resourcePath": "extensions\\extension0\\extension0.yy",
-                "resourceType": "GMExtension"
+                "id": "bcfc05c8-d3f2-4eb3-be4f-c5e492a1cd4e",
+                "resourcePath": "views\\e040d0c9-7947-409a-a797-c710fafa4f70.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -212,6 +316,22 @@
                 "id": "78a019d8-4226-4b1e-ac2c-154d3df8a8d8",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e6e1985c-46c4-4111-9221-5184e4793824",
+            "Value": {
+                "id": "c8f4e96e-ec59-4531-a2e4-6f6f2628ca43",
+                "resourcePath": "views\\e6e1985c-46c4-4111-9221-5184e4793824.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f27b34c8-1147-45f7-9f1e-f9f521b6438c",
+            "Value": {
+                "id": "cc2f5b2f-f3a3-4882-ac0f-0bef99be3df1",
+                "resourcePath": "rooms\\testingRoom\\testingRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -224,7 +344,12 @@
         }
     ],
     "script_order": [
-        
+        "2d11e202-1a54-4831-ac48-4a92e1e1b3f3",
+        "5c340e13-9154-425c-b6cd-cea4200b6dc9",
+        "11921ea9-b036-4073-9aaf-ebb76f3f98d8",
+        "b1a0b798-df5f-4c99-a734-b315dc8c21a8",
+        "b32693ac-f2c4-4ca5-b10b-bdc8b543f729",
+        "5082e036-40d5-4305-9f89-82521a3ef2e7"
     ],
     "tutorial": ""
 }
